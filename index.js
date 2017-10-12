@@ -6,11 +6,12 @@ function happyHolidays(){
 function happyHolidaysTo(name){
   return 'Happy Holidays, ${name}!'
 }
+function holidayCountdown(holiday, name){
+  return 'Happy ${holiday}, ${name}!'
+}
 
 function holidayCountdown(holiday, days){
   return 'It\'s ${days} days until ${holiday}!'
 }
 
-happyHolidays()
 
-happyHolidaysTo(you)
